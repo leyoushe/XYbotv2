@@ -209,7 +209,7 @@ docker-compose logs --tail=100 xybotv2
 
 ```bash
 # 克隆项目
-git clone https://github.com/HenryXiaoYang/XYBotV2.git
+git clone https://github.com/leyoushe/XYBotV2.git
 # 小白：直接 Github Download ZIP
 
 cd XYBotV2
@@ -290,7 +290,7 @@ source ~/.bashrc
 
 ```bash
 # 克隆项目
-git clone https://github.com/HenryXiaoYang/XYBotV2.git
+git clone https://github.com/leyoushe/XYBotV2.git
 # 小白：直接 Github Download ZIP
 
 cd XYBotV2
