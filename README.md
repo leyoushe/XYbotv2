@@ -1,4 +1,4 @@
-＃Xybot V2
+# 🤖 XYBot V2
 
 XYBot V2 是一个功能丰富的微信机器人框架,支持多种互动功能和游戏玩法。
 
@@ -17,145 +17,145 @@ XYBot V2 是一个功能丰富的微信机器人框架,支持多种互动功能�
 
 ## 统一回复ISSUE内的问题：我敢承诺项目内不会有任何形式的后门程序、病毒程序、木马程序，最多只有一个防滥用倒卖的框架检测。
 
-#  文档
+# 📄 文档
 
-## https://henryxiaoyang.github.io/xybotv2
+## https://henryxiaoyang.github.io/XYBotV2
 
-#  微信交流群
+# 💬 微信交流群
 
+<div style="text-align: center" align="center">
+    <img alt="微信交流群二维码" src="https://qrcode.yangres.com/get_image" style="width: 300px; height: auto;">
+    <p>微信扫码加入交流群</p>
+    <a href="https://qrcode.yangres.com/get_image">🔗图片会被缓存，点我查看最新二维码</a>
+</div>
 
-     
-    
-    图片会被缓存，点我查看最新二维码a>
- > div
+# ✨ 主要功能
 
-#  主要功能
+## 🛠️ 基础功能
 
-##  基础功能
+- 🤖 AI聊天 - 支持文字、图片、语音等多模态交互
+- 📰 每日新闻 - 自动推送每日新闻
+- 🎵 点歌系统 - 支持在线点歌
+- 🌤️ 天气查询 - 查询全国各地天气
+- 🎮 游戏功能 - 五子棋、战争雷霆玩家查询等
 
--  AI聊天 - 支持文字、图片、语音等多模态交互
--  每日新闻 - 自动推送每日新闻
--  点歌系统 - 支持在线点歌
--  天气查询 - 查询全国各地天气
--  游戏功能 - 五子棋、战争雷霆玩家查询等
+## 💎 积分系统
 
-##  积分系统
+- 📝 每日签到 - 支持连续签到奖励
+- 🎲 抽奖系统 - 多种抽奖玩法
+- 🧧 红包系统 - 群内发积分红包
+- 💰 积分交易 - 用户间积分转账
+- 📊 积分排行 - 查看积分排名
 
--  每日签到 - 支持连续签到奖励
--  抽奖系统 - 多种抽奖玩法
--  红包系统 - 群内发积分红包
--     积分交易 - 用户间积分转账
--  积分排行 - 查看积分排名
+## 👮 管理功能
 
-##  管理功能
+- ⚙️ 插件管理 - 动态加载/卸载插件
+- 👥 白名单管理 - 控制机器人使用权限
+- 📊 积分管理 - 管理员可调整用户积分
+- 🔄 签到重置 - 重置所有用户签到状态
 
--  插件管理 - 动态加载/卸载插件
--  白名单管理 - 控制机器人使用权限
--  积分管理 - 管理员可调整用户积分
--  签到重置 - 重置所有用户签到状态
-
-#  插件系统
+# 🔌 插件系统
 
 XYBot V2 采用插件化设计,所有功能都以插件形式实现。主要插件包括:
 
--  AdminPoint - 积分管理
--  AdminSignInReset - 签到重置
--  AdminWhitelist - 白名单管理
--  Ai - AI聊天
--  BotStatus - 机器人状态
--  GetContact - 获取通讯录
--  GetWeather - 天气查询
--  Gomoku - 五子棋游戏
--  GoodMorning - 早安问候
--  Leaderboard - 积分排行
--   LuckyDraw - 幸运抽奖
--  Menu - 菜单系统
--  Music - 点歌系统
--  News - 新闻推送
--  PointTrade - 积分交易
--  QueryPoint - 积分查询
--  RandomMember - 随机群成员
--  RandomPicture - 随机图片
--  RedPacket - 红包系统
--  SignIn - 每日签到
--  Warthunder - 战争雷霆查询
+- 👨‍💼 AdminPoint - 积分管理
+- 🔄 AdminSignInReset - 签到重置
+- 🛡️ AdminWhitelist - 白名单管理
+- 🤖 Ai - AI聊天
+- 📊 BotStatus - 机器人状态
+- 📱 GetContact - 获取通讯录
+- 🌤️ GetWeather - 天气查询
+- 🎮 Gomoku - 五子棋游戏
+- 🌅 GoodMorning - 早安问候
+- 📈 Leaderboard - 积分排行
+- 🎲 LuckyDraw - 幸运抽奖
+- 📋 Menu - 菜单系统
+- 🎵 Music - 点歌系统
+- 📰 News - 新闻推送
+- 💱 PointTrade - 积分交易
+- 💰 QueryPoint - 积分查询
+- 🎯 RandomMember - 随机群成员
+- 🖼️ RandomPicture - 随机图片
+- 🧧 RedPacket - 红包系统
+- ✍️ SignIn - 每日签到
+- ✈️ Warthunder - 战争雷霆查询
 
-#  部署说明
+# 🚀 部署说明
 
-##  Docker 部署（推荐）
+## 🐳 Docker 部署（推荐）
 
-### 1.  准备环境
+### 1. 🔧 准备环境
 
 需要安装 Docker 和 Docker Compose:
 
--  Docker 安装: https://docs.docker.com/get-started/get-docker/
--  Docker Compose 安装: https://docs.docker.com/compose/install/
+- 🐋 Docker 安装: https://docs.docker.com/get-started/get-docker/
+- 🔄 Docker Compose 安装: https://docs.docker.com/compose/install/
 
-2.  拉取最新镜像
+2. ⬇️ 拉取最新镜像
 
-``bash
+```bash
 # 克隆项目
-git克隆https://github.com/leyoushe/xybotv2.git
-CD xybotV2
+git clone https://github.com/leyoushe/XYBotV2.git
+cd XYBotV2
 
 # 拉取镜像
-Docker-Compose拉
-``'''
+docker-compose pull
+```
 
-3.  启动容器
+3. 🚀 启动容器
 
-``bash
+```bash
 # 首次启动
-docker -compose -d
+docker-compose up -d
 
 # 查看容器状态
-Docker-Compose PS
-``'''
+docker-compose ps
+```
 
-4.  查看日志然后登录微信
+4. 📱 查看日志然后登录微信
 
-``bash
+```bash
 # 查看日志获取登录二维码
-docker -compose logs -f xybotv2
-``'''
+docker-compose logs -f xybotv2
+```
 
 扫描终端显示的二维码完成登录。（如果扫不出来,可以打开链接扫码）。首次登录成功后,需要挂机4小时。之后机器人就会自动开始正常运行。
 
-5.  配置文件修改
+5. ⚙️ 配置文件修改
 
-``bash
+```bash
 # 查看数据卷位置
-Docker卷检查XYBOTV2
+docker volume inspect xybotv2
 
 # 编辑对应目录下的配置文件
 xybotv2-volumes-dir/_data/main_config.toml
-xybotv2-volumes-dir/_data/plugins/all_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in_in _in_ine_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one_one _ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_ONE_CONFIG.TOML
-``````````''
+xybotv2-volumes-dir/_data/plugins/all_in_one_config.toml
+```
 
 修改配置后需要重启容器使配置生效:
 
-``bash
-docker-compose重新启动xybotv2
-````````''''
+```bash
+docker-compose restart xybotv2
+```
 
->  [ ！提示]
+> [!TIP]
 > 如果是修改插件配置则可使用热加载、热卸载、热重载指令，不用重启机器人。
 
-###  常见问题
+### ❓ 常见问题
 
-1.  Redis 连接失败
+1. 🔌 Redis 连接失败
 
 - 检查 DragonFly 服务是否正常运行
 - 确认 main_config.toml 中的 redis-host 配置是否正确
 
-2.  配置文件修改未生效
+2. ⚠️ 配置文件修改未生效
 
 - 重启容器: `docker-compose restart xybotv2`
 - 检查配置文件权限是否正确
 
-3.  日志查看
+3. 📝 日志查看
 
-``bash
+```bash
 # 查看实时日志
 docker-compose logs -f xybotv2
 
